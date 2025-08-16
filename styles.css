@@ -1,16 +1,16 @@
-/* Global Box Model Reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Layout and Spacing */
 body {
   font-family: Georgia, serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #fdfcfb;
+  color: #1446aa;
+  background-color: #8f9982;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
 }
 
@@ -20,37 +20,17 @@ header {
   border-bottom: 2px solid #ccc;
 }
 
-header img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
-
-nav {
-  margin: 20px 0;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 15px;
-}
-
 nav a {
   text-decoration: none;
   font-size: 1.1em;
-  color: #555;
+  color: #333;
   padding: 5px 10px;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
 
 nav a:hover {
-  background-color: #eae5e2;
+  background-color: #052256;
 }
 
 main {
@@ -60,14 +40,10 @@ main {
 }
 
 section, aside {
-  background-color: #fff;
+  background-color: #d3f4c2;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #df0b0b;
   border-radius: 5px;
-}
-
-.product {
-  margin-bottom: 20px;
 }
 
 .product img {
@@ -76,55 +52,13 @@ section, aside {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   padding: 5px;
-  background-color: #fafafa;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-table th, table td {
-  border: 1px solid #aaa;
-  padding: 10px;
-  text-align: left;
-}
-
-table caption {
-  caption-side: top;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-form fieldset {
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-form legend {
-  font-weight: bold;
-}
-
-form label {
-  display: block;
-  margin-top: 8px;
-}
-
-form input, form select, form textarea {
-  width: 100%;
-  padding: 8px;
-  margin-top: 4px;
-  border: 1px solid #aaa;
-  border-radius: 3px;
+  background-color: #e5e109;
 }
 
 form button {
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #3418e7;
+  background-color: #336699;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -133,7 +67,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #92704b;
+  background-color: #285580;
 }
 
 footer {
